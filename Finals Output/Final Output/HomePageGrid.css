@@ -1,0 +1,33 @@
+/* Body grid layout */
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* top-nav / main content / footer */
+    height: 100vh;
+    margin: 0;
+}
+
+/* Top navigation links at the top */
+.top-nav {
+    display: flex;
+    justify-content: center;
+    gap: 200px; /* spacing between links */
+    padding: 20px;
+}
+
+/* Center logo container */
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer placement */
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    flex-shrink: 0;
+}
+

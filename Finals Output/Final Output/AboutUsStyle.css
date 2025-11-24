@@ -1,0 +1,65 @@
+/* ===========================
+   GLOBAL
+=========================== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+}
+
+
+/* ===========================
+   NAVIGATION
+=========================== */
+.top-nav {
+    margin-bottom: 40px;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding: 20px;
+    background-color: rgb(180, 178, 178, 0.7);
+}
+
+.top-nav a {
+    color: #232835;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.top-nav a:hover {
+    color: #ffffff;
+}
+
+
+/* ===========================
+   FOOTER
+=========================== */
+footer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(180, 178, 178, 0.7);
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+footer .footer-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+

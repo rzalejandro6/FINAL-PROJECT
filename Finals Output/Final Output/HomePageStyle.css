@@ -1,0 +1,72 @@
+/* Page background */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('1BackGround Image.jpg'); /* replace with your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; /* needed for overlay */
+}
+
+/* Optional semi-transparent overlay */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3); /* adjust for readability */
+    z-index: -1; /* behind content */
+}
+
+/* Top navigation links style */
+.top-nav {
+    background-color: rgba(180, 178, 178, 0.7); /* semi-transparent header */
+}
+
+.top-nav a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #232835;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.top-nav a:hover {
+    color: #ffffff;
+}
+
+/* Footer style */
+footer {
+    background-color: rgba(180, 178, 178, 0.7); /* semi-transparent footer */
+    color: white;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* Footer icons and text side by side */
+footer div {
+    display: flex;           /* put icon and text in a row */
+    align-items: center;     /* vertically center them */
+    gap: 10px;               /* space between icon and text */
+}
+
+footer div img {
+    width: 50px;             /* size of the icon */
+    height: auto;            /* maintain aspect ratio */
+}
+
+/* Logo style */
+.logo-container img {
+    width: 1300px;
+}
+
+.logo-container h1 {
+    color: #1A1A1A;
+    font-size: 3rem;
+    margin: 10px 0 0 0;
+}
+
