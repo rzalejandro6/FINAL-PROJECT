@@ -4,17 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clique Home</title>
-    <link rel="stylesheet" href="../CSS/HomePageGrid.css">
-    <link rel="stylesheet" href="../CSS/HomePageStyle.css">
+    <link rel="stylesheet" href="../CSS/site.css">
+    <link rel="icon" type="image/png" href="../Assets/TabLogo.png">
 </head>
-<body>
-    <!-- Centered navigation only; home is protected and shown after login -->
-    <nav class="home-nav">
-        <a href="ABOUT US.html">ABOUT US</a>
-        <a href="CONTENTS.html">CONTENTS</a>
-        <a href="CONTACS.html">CONTACTS</a>
-        <a href="#" id="logout-link">LOG OUT</a>
-    </nav>
+<body class="page-auth page-home">
+    <div class="container">
+        <div class="glass-card home-card">
+            <div class="logo logo--compact">
+                <img src="../Assets/Logo black tranparent.png" alt="Clique logo">
+            </div>
+            <nav class="primary-nav">
+                <a href="ABOUT US.html">About Us</a>
+                <a href="CONTENTS.html">Contents</a>
+                <a href="Contact.html">Contacts</a>
+                <a href="#" id="logout-link">Log Out</a>
+            </nav>
+            <section class="home-hero">
+                <h1>Welcome to Clique</h1>
+                <p>Access the world’s most impactful photography once you’re signed in. Use the portal links above to explore, manage your profile, or reach out to our team.</p>
+                <div class="button-row">
+                    <a class="pill-link" href="CONTENTS.html">Browse Collections</a>
+                    <a class="pill-link pill-link--ghost" href="ABOUT US.html">Meet Clique</a>
+                </div>
+            </section>
+        </div>
+    </div>
 
     <script src="../Scripts/home.js" defer></script>
 </body>

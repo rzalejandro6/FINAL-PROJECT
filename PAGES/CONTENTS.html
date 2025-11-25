@@ -5,84 +5,140 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photography Collections</title>
 
-    <link rel="stylesheet" href="../CSS/CONTENTSgrid.css">
+    <link rel="stylesheet" href="../CSS/site.css">
+    <link rel="icon" type="image/png" href="../Assets/TabLogo.png">
 </head>
-<body>
-        <header class="site-header">
-            <div class="branding">
-                <img src="../Assets/Logo white tranparent.png" width="150px" alt="logo of Clique">
-                <h1>Photography Collections</h1>
+<body class="page-auth page-scroll page-contents">
+    <div class="container">
+        <div class="glass-card gallery-card">
+            <div class="logo logo--compact">
+                <img src="../Assets/Logo black tranparent.png" alt="logo of Clique">
             </div>
-            <nav class="nav-links">
-                <a href="CONTENTS.html">PHOTOGRAPHY</a>
-                <a href="ABOUT US.html">ABOUT US</a>
-                <a href="CONTACS.html">CONTACTS</a>
-                <a href="../index.html">HOME</a>
+            <nav class="primary-nav">
+                <a href="CONTENTS.html">Contents</a>
+                <a href="ABOUT US.html">About Us</a>
+                <a href="Contact.html">Contacts</a>
+                <a href="home.html">Home</a>
+                <a href="#" id="logout-link">Log Out</a>
             </nav>
-        </header>
-            <main class="page-layout">
-                <aside class="left">
+
+            <section class="section-intro">
+                <h1>Photography Collections</h1>
+                <p>Browse the portrait, landscape, and cityscape photographs that have captivated audiences across the globe.</p>
+            </section>
+
+            <div class="gallery-layout">
+                <aside class="gallery-toc">
                     <p>Jump to:</p>
-                    <a href="#PORTRAIT">PORTRAIT</a>
-                    <a href="#LANDSCAPE">LANDSCAPE</a>
-                    <a href="#CITYSCAPE">CITYSCAPE</a>
+                    <a href="#PORTRAIT">Portrait</a>
+                    <a href="#LANDSCAPE">Landscape</a>
+                    <a href="#CITYSCAPE">Cityscape</a>
                 </aside>
-                <div class="right">
-                    <h2>
-                        Top 5 most viewed photography in portrait, landscape and cityscape
-                    </h2>
-                    <section id="PORTRAIT">
-                    <h3> PORTRAIT </h3>
-                        <p>1. Afghan Girl by Steve McCurry (1984)</p>
-                            <img src="../Assets/1. Afghan Girl by Steve McCurry (1984).jpg" width="300px"  alt="Afghan Girl by Steve McCurry (1984)">
-                        <p>2. Migrant Mother by Dorothea Lange (1936)</p>
-                            <img src="../Assets/2. Migrant Mother by Dorothea Lange (1936).jpg" width="300px" alt="Migrant Mother by Dorothea Lange (1936)">
-                        <p>3. The Vulture and The Little Girl by Kevin Carter (1993)</p>
-                            <img src="../Assets/3. The Vulture and The Little Girl by Kevin Carter (1993).jpg" width="300px"  alt="The Vulture and The Little Girl by Kevin Carter (1993)">
-                        <p>4. Marilyn Monroe’s Flying Skirt by Sam Shaw (1954)</p>
-                            <img src="../Assets/4. Marilyn Monroe’s Flying Skirt by Sam Shaw (1954).jpg"   width="300px" alt="Marilyn Monroe’s Flying Skirt by Sam Shaw (1954)">
-                        <p>5.Guerrillero Heroico by Alberto Korda (1960)</p>
-                            <img src="../Assets/5.Guerrillero Heroico by Alberto Korda (1960).jpg"   width="300px" alt="Guerrillero Heroico by Alberto Korda (1960)">
+
+                <div class="gallery-content">
+                    <section id="PORTRAIT" class="gallery-section">
+                        <h2>Portrait</h2>
+                        <p class="section-note">Top 5 most viewed portrait photographs.</p>
+                        <div class="media-stack">
+                            <figure>
+                                <img data-full="../Assets/1. Afghan Girl by Steve McCurry (1984).jpg" src="../Assets/1. Afghan Girl by Steve McCurry (1984).jpg" alt="Afghan Girl by Steve McCurry (1984)">
+                                <figcaption>1. Afghan Girl by Steve McCurry (1984)</figcaption>
+                            </figure>
+                            <figure>
+                                <img data-full="../Assets/2. Migrant Mother by Dorothea Lange (1936).jpg" src="../Assets/2. Migrant Mother by Dorothea Lange (1936).jpg" alt="Migrant Mother by Dorothea Lange (1936)">
+                                <figcaption>2. Migrant Mother by Dorothea Lange (1936)</figcaption>
+                            </figure>
+                            <figure>
+                                <img data-full="../Assets/3. The Vulture and The Little Girl by Kevin Carter (1993).jpg" src="../Assets/3. The Vulture and The Little Girl by Kevin Carter (1993).jpg" alt="The Vulture and The Little Girl by Kevin Carter (1993)">
+                                <figcaption>3. The Vulture and The Little Girl by Kevin Carter (1993)</figcaption>
+                            </figure>
+                            <figure>
+                                <img data-full="../Assets/4. Marilyn Monroe’s Flying Skirt by Sam Shaw (1954).jpg" src="../Assets/4. Marilyn Monroe’s Flying Skirt by Sam Shaw (1954).jpg" alt="Marilyn Monroe’s Flying Skirt by Sam Shaw (1954)">
+                                <figcaption>4. Marilyn Monroe’s Flying Skirt by Sam Shaw (1954)</figcaption>
+                            </figure>
+                            <figure>
+                                <img data-full="../Assets/5.Guerrillero Heroico by Alberto Korda (1960).jpg" src="../Assets/5.Guerrillero Heroico by Alberto Korda (1960).jpg" alt="Guerrillero Heroico by Alberto Korda (1960)">
+                                <figcaption>5. Guerrillero Heroico by Alberto Korda (1960)</figcaption>
+                            </figure>
+                        </div>
                     </section>
-                    <section id="LANDSCAPE">
-                    <h3>LANDSCAPE</h3>
-                        <p>1. The Grand Canyon, Arizona, USA</p>
-                            <img src="../Assets/1. The Grand Canyon, Arizona, USA.jpg" width="600px" alt="The Grand Canyon, Arizona, USA">
-                        <p>2. Torres del Paine National Park, Patagonia, Chile</p>
-                            <img src="../Assets/2. Torres del Paine National Park, Patagonia, Chile.jpg" width="600px" alt="Torres del Paine National Park, Patagonia, Chile">
-                        <p>3. Ha Long Bay, Vietnam</p>
-                            <img src="../Assets/3. Ha Long Bay, Vietnam.jpg" width="600px" alt="Ha Long Bay, Vietnam"> 
-                        <p>4. Tuscany, Italy Rolling Hills</p>
-                            <img src="../Assets/4. Tuscany, Italy Rolling Hills.jpg" width="600px" alt="Tuscany, Italy Rolling Hills">
-                        <p>5. Uyuni Salt Flat (Salar de Uyuni), Bolivia</p>
-                            <img src="../Assets/5. Uyuni Salt Flat (Salar de Uyuni), Bolivia.jpg" width="600px" alt="Uyuni Salt Flat (Salar de Uyuni), Bolivia">
+
+                    <section id="LANDSCAPE" class="gallery-section">
+                        <h2>Landscape</h2>
+                        <p class="section-note">Sweeping vistas that changed the way we see our planet.</p>
+                        <div class="media-stack">
+                            <figure>
+                                <img data-full="../Assets/1. The Grand Canyon, Arizona, USA.jpg" src="../Assets/1. The Grand Canyon, Arizona, USA.jpg" alt="The Grand Canyon, Arizona, USA">
+                                <figcaption>1. The Grand Canyon, Arizona, USA</figcaption>
+                            </figure>
+                            <figure>
+                                <img data-full="../Assets/2. Torres del Paine National Park, Patagonia, Chile.jpg" src="../Assets/2. Torres del Paine National Park, Patagonia, Chile.jpg" alt="Torres del Paine National Park, Patagonia, Chile">
+                                <figcaption>2. Torres del Paine National Park, Patagonia, Chile</figcaption>
+                            </figure>
+                            <figure>
+                                <img data-full="../Assets/3. Ha Long Bay, Vietnam.jpg" src="../Assets/3. Ha Long Bay, Vietnam.jpg" alt="Ha Long Bay, Vietnam">
+                                <figcaption>3. Ha Long Bay, Vietnam</figcaption>
+                            </figure>
+                            <figure>
+                                <img data-full="../Assets/4. Tuscany, Italy Rolling Hills.jpg" src="../Assets/4. Tuscany, Italy Rolling Hills.jpg" alt="Tuscany, Italy Rolling Hills">
+                                <figcaption>4. Tuscany, Italy Rolling Hills</figcaption>
+                            </figure>
+                            <figure>
+                                <img data-full="../Assets/5. Uyuni Salt Flat (Salar de Uyuni), Bolivia.jpg" src="../Assets/5. Uyuni Salt Flat (Salar de Uyuni), Bolivia.jpg" alt="Uyuni Salt Flat (Salar de Uyuni), Bolivia">
+                                <figcaption>5. Uyuni Salt Flat (Salar de Uyuni), Bolivia</figcaption>
+                            </figure>
+                        </div>
                     </section>
-                    <section id="CITYSCAPE">
-                    <h3>CITYSCAPE</h3>
-                        <p>1. It’s a New Year 2015 by Anthony Fields</p>
-                            <img src="../Assets/1. It’s a New Year 2015 by Anthony Fields.jpeg" width="600px"  alt="It’s a New Year 2015 by Anthony Fields">
-                        <p>2. F1 Finale by Jonathan Danker</p>
-                            <img src="../Assets/2. F1 Finale by Jonathan Danker.jpeg" width="600px" alt="F1 Finale by Jonathan Danker">
-                        <p>3. Averse Magnétique by Romain Mattei</p>
-                            <img src="../Assets/3. Averse Magnétique by Romain Mattei.jpeg" width="600px" alt="Averse Magnétique by Romain Mattei">
-                        <p>4. Shanghai at Night by Clemens Geiger</p>
-                            <img src="../Assets/4. Shanghai at Night by Clemens Geiger.jpeg" width="600px" alt="Shanghai at Night by Clemens Geiger">
-                        <p>5. City of Gold by Guerel Sahin</p>
-                        <img src="../Assets/5. City of Gold by Guerel Sahin.jpeg" width="600px" alt="City of Gold by Guerel Sahin">
+
+                    <section id="CITYSCAPE" class="gallery-section">
+                        <h2>Cityscape</h2>
+                        <p class="section-note">Urban energy frozen in iconic frames.</p>
+                        <div class="media-stack">
+                            <figure>
+                                <img data-full="../Assets/1. It’s a New Year 2015 by Anthony Fields.jpeg" src="../Assets/1. It’s a New Year 2015 by Anthony Fields.jpeg" alt="It’s a New Year 2015 by Anthony Fields">
+                                <figcaption>1. It’s a New Year 2015 by Anthony Fields</figcaption>
+                            </figure>
+                            <figure>
+                                <img data-full="../Assets/2. F1 Finale by Jonathan Danker.jpeg" src="../Assets/2. F1 Finale by Jonathan Danker.jpeg" alt="F1 Finale by Jonathan Danker">
+                                <figcaption>2. F1 Finale by Jonathan Danker</figcaption>
+                            </figure>
+                            <figure>
+                                <img data-full="../Assets/3. Averse Magnétique by Romain Mattei.jpeg" src="../Assets/3. Averse Magnétique by Romain Mattei.jpeg" alt="Averse Magnétique by Romain Mattei">
+                                <figcaption>3. Averse Magnétique by Romain Mattei</figcaption>
+                            </figure>
+                            <figure>
+                                <img data-full="../Assets/4. Shanghai at Night by Clemens Geiger.jpeg" src="../Assets/4. Shanghai at Night by Clemens Geiger.jpeg" alt="Shanghai at Night by Clemens Geiger">
+                                <figcaption>4. Shanghai at Night by Clemens Geiger</figcaption>
+                            </figure>
+                            <figure>
+                                <img data-full="../Assets/5. City of Gold by Guerel Sahin.jpeg" src="../Assets/5. City of Gold by Guerel Sahin.jpeg" alt="City of Gold by Guerel Sahin">
+                                <figcaption>5. City of Gold by Guerel Sahin</figcaption>
+                            </figure>
+                        </div>
                     </section>
                 </div>
-            </main>
+            </div>
 
-    <footer>
-        <div class="footer-item">
-            <img src="../Assets/facebook-app-symbol.png" width="50px" alt="facebook icon">
-            <p>CLIQUE.com</p>
+            <div class="footer-bar">
+                <div class="footer-item">
+                    <img src="../Assets/facebook-app-symbol.png" width="40" alt="facebook icon">
+                    <p>CLIQUE.com</p>
+                </div>
+                <div class="footer-item">
+                    <img src="../Assets/instagram.png" width="40" alt="instagram icon">
+                    <p>@Clique</p>
+                </div>
+                <p>&copy; 2025 Clique · All rights reserved</p>
+            </div>
         </div>
-        <div class="footer-item">
-            <img src="../Assets/instagram.png" width="50px" alt="instagram icon">
-            <p>@Clique</p>
+    </div>
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+        <button class="lightbox__close" aria-label="Close">&times;</button>
+        <div class="lightbox__body">
+            <img class="lightbox__media" src="" alt="">
+            <p class="lightbox__caption"></p>
         </div>
-        <p>&copy; 2025 Clique All rights reserved</p>
-    </footer>
+    </div>
+    <script src="../Scripts/gallery-modal.js" defer></script>
 </body>
 </html>

@@ -1,5 +1,6 @@
 # FINAL-PROJECT
-
+Notes: 
+- The data is stored in browser storage only.
 
 Directory 
 1. Assets - Folder for all the assets used 
